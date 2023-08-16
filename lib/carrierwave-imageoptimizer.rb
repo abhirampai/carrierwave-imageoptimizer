@@ -8,7 +8,7 @@ module CarrierWave
       quality: 75,
       strip_metadata: false,
       level: 3
-    }.frozen
+    }.freeze
 
     def optimize(options = {})
       ::ImageOptimizer.new(current_path, optimizer_options(options)).optimize
