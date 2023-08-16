@@ -20,12 +20,12 @@ Tested against 2.2.x, 2.3.x, and ruby-head
 Or install the utilities via homebrew:
 
 ```bash
-$ brew install optipng jpegoptim
+$ brew install optipng jpegoptim pngquant
 ```
 
 Then add this line to your application's Gemfile:
 
-    gem 'carrierwave-imageoptimizer'
+    gem 'carrierwave-imageoptimizer', git: "https://github.com/abhirampai/carrierwave-imageoptimizer"
 
 And then execute:
 
