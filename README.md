@@ -105,6 +105,12 @@ class MyUploader < CarrierWave::Uploader::Base
 end
 ```
 
+##### Default Values
+`quiet - true`
+`level - 3`
+`quality - 75`
+`strip_metadata - false`
+
 ## Contributing
 
 1. Fork it
